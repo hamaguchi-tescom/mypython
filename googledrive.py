@@ -14,7 +14,7 @@ gauth = GoogleAuth()
 
 
 # Creates local webserver and auto handles authentication.
-gauth.LocalWebserverAuth() 
+gauth.LocalWebserverAuth()
 
 
 # 認証情報をもとにGoogleDriveFileオブジェクトを生成
@@ -22,10 +22,11 @@ drive = GoogleDrive(gauth)
 
 
 # Auto-iterate through all files that matches this query
-file_list = drive.ListFile({'q':"'root' in parents and trashed=false"}).GetList()
-for file in file_list :
-    if re.search('\.xlsx$', file['title']) :
-        print('title: %s, id: %s' % (file['title'],file['id']))
+file_list = drive.ListFile(
+    {'q': "'root' in parents and trashed=false"}).GetList()
+for file in file_list:
+    if re.search('\.png$', file['title']):
+        print('title: %s, id: %s' % (file['title'], file['id']))
         id = file['id']
 
         # 一度Driveインスタンスを作る必要がある
