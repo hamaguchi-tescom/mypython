@@ -1,7 +1,14 @@
 /.vscode
 /client_secrets.json
 /credentials.json
+<<<<<<< HEAD
 /testfile
 /.venv
 *.csv
 *.log
+=======
+/logWSVCUUpdateHelper.log
+/testfile
+/.venv/
+/.venv/pyvenv.cfg
+>>>>>>> da389712ab2fc8637a277613d02a8a84a73b33a0
