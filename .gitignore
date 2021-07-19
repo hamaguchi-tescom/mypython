@@ -3,3 +3,5 @@
 /credentials.json
 /logWSVCUUpdateHelper.log
 /testfile
+/.venv/
+/.venv/pyvenv.cfg
