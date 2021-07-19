@@ -1,5 +1,7 @@
 /.vscode
 /client_secrets.json
 /credentials.json
-/logWSVCUUpdateHelper.log
 /testfile
+/.venv
+*.csv
+*.log
