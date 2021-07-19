@@ -3,5 +3,6 @@
 /credentials.json
 /testfile
 /venv
+/.venv
 *.csv
 *.log
