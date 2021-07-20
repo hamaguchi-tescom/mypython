@@ -4,5 +4,6 @@
 /testfile
 /venv
 /.venv
+*.xls*
 *.csv
 *.log
