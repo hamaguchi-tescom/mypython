@@ -3,5 +3,9 @@
 /credentials.json
 /testfile
 /venv
+/.venv
+/jupyter
+/.ipynb*
+*.xls*
 *.csv
 *.log
